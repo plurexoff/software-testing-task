@@ -1,0 +1,10 @@
+# Основное
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+pytest-xdist>=3.0.0  # Параллельные тесты
+
+# Опционально
+faker>=15.0.0  # Генерация тестовых данных
+hypothesis>=6.0.0  # Property-based testing
+pytest-timeout>=2.0.0  # Таймаут для тестов
