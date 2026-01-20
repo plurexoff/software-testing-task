@@ -35,7 +35,7 @@ class TestStringUtils:
         ('hello', 2),
         ('aeiou', 5),
         ('bcdfg', 0),
-        ('beautiful', 4),
+        ('beautiful', 5),  # Fixed: beautiful has e,a,u,i,u = 5 vowels
     ])
     def test_count_vowels(self, s, expected):
         assert count_vowels(s) == expected
